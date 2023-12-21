@@ -1,0 +1,81 @@
+
+@media only screen and (max-width: 1140px) {
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .navbar{
+        height: 447px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+
+    .rightNav{
+        text-align: center;
+        width: 60%;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    #search{
+        width: 90%;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        height: 64px;
+    }
+
+    .v-class-resp{
+        visibility: hidden;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+
+    .text-small{
+        text-align: center;
+    }
+
+    .text-big{
+        text-align: center;
+    }
+
+    .buttons{
+        text-align: center;
+    }
+
+    /*mine */
+    .section{
+        padding: 40px 5px;
+    } /**/
+
+    .paras{
+        padding: 2px;
+    }
+
+    .form {
+        max-width: 88%;
+    
+    }
+
+    .btn-submit{
+        width: fit-content;
+        margin: auto;
+       padding-bottom: 2vh;
+    }
+    .btn-submit button{
+        border-color: rgb(11, 10, 10);
+        font-size: large;
+        padding: 2vh  6vh;
+    }
+
+
+
+}
